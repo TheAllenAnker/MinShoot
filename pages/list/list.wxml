@@ -1,0 +1,12 @@
+<view class="container">
+  <view wx:for="{{usernames}}">
+    {{index}}: {{item}}
+  </view>
+  <view wx:for="{{nicknames_dict}}">
+    {{index}}: {{item.name}} is {{item.age}}.
+  </view>
+  <view wx:for="{{nicknames_dict}}" wx:for-index="indexName"
+    wx:for-item="user">
+    {{indexName}}: {{user.name}} is {{user.age}}.
+  </view>
+</view>
