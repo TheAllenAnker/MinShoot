@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <text>{{userInfo}}</text>
+  </view>
+  <view class="usermotto">
+    <text bindtap='clickToTest' data-name='Allen Anker'>Click to test</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
