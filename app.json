@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/list/list",
-    "pages/index/index"
+    "demos/flex/flex",
+    "demos/list/list",
+    "pages/index/index",
+    "demos/flex"
   ],
   "window": {
     "backgroundTextStyle": "light",

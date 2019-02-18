@@ -1,0 +1,7 @@
+<view class="inner-container">
+  <view class="demo-box a">a</view>
+  <view class="demo-box b">b</view>
+  <view class="demo-box c">c</view>
+  <view class="demo-box d">d</view>
+  <view class="demo-box e">e</view>
+</view>

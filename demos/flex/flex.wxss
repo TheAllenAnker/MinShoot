@@ -1,0 +1,42 @@
+.inner-container {
+  display: flex;
+  flex-direction: row; /* row-reverse column...*/
+  flex-wrap: wrap-reverse; /* wrap nowrap*/
+  justify-content: flex-start; 
+  /* flex-end center space-around space-between*/
+}
+
+.demo-box {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.a {
+  background-color: red;
+  order: 2;
+  flex: 2;
+}
+
+.b {
+  background-color: orange;
+  order: 1;
+  flex: 1;
+}
+
+.c {
+  background-color: yellow;
+  order: 5;
+  flex: 1;
+}
+
+.d {
+  background-color: green;
+  order: 3;
+  flex: 1;
+}
+
+.e {
+  background-color: blue;
+  order: 4;
+  flex: 2;
+}
