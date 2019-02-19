@@ -1,0 +1,31 @@
+<!--demos/form/form.wxml-->
+<view>
+  <button size='mini' type='default'>Button 1</button>
+  <button size='mini' type='primary'>Button 2</button>
+  <button size='mini' type='warn' plain='true'>Button 3</button>
+  <button size='mini' type='warn' disabled='true'>Button 4</button>
+  <button size='mini' type='warn' disabled='true' loading='true'>Loading Button 1</button>
+</view>
+
+<form bindsubmit='onFormSubmit' bindreset='onFormReset'>
+  <view>
+    <checkbox-group bindchange='onCBChange'>
+      <checkbox id='ts' value='Taylor' color='red'>Taylor Swift</checkbox>
+      <checkbox value='Troye' checked='true'>Troye Sivan</checkbox>
+    </checkbox-group>
+  </view>
+  <label for='ts'>Choose TS</label>
+  <button size='mini' form-type='submit'>Submit</button>
+  <button size='mini' form-type='reset'>Reset</button>
+</form>
+
+<view style='margin-top:20rpx;'></view>
+
+<view class='input'>
+  <input value='string' type='text'></input>
+  <input value='number' type='number'></input>
+  <input value='idcard' type='idcard'></input>
+  <input value='digit' type='digit'></input>
+</view>
+
+
