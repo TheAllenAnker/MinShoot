@@ -2,8 +2,7 @@
   "pages": [
     "demos/flex/flex",
     "demos/list/list",
-    "pages/index/index",
-    "demos/flex"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
