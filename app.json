@@ -1,5 +1,6 @@
 {
   "pages": [
+    "demos/picker/picker",
     "demos/form/form",
     "demos/flex/flex",
     "demos/list/list",

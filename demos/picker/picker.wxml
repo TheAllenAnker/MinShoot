@@ -1,0 +1,28 @@
+<!--demos/picker/picker.wxml-->
+<picker mode='selector' range='{{array}}' value='{{index}}'
+  bindchange='bindPickerChange' bindcancel='bindPickerCancel'>
+  <view class='picker'>{{array[index]}}</view>
+</picker>
+
+<picker mode='multiSelector' range='{{multiArr}}' 
+  value='{{multiIndex}}'>
+  <view>Current Selection: {{multiArr[0][multiIndex[0]]}},
+    {{multiArr[1][multiIndex[1]]}}, {{multiArr[2][multiIndex[2]]}}</view>
+</picker>
+
+<view>Current Selected Time: {{year}} 年 {{month}} 月 {{day}} 日</view>
+<picker-view 
+  style='width:100%;height:300rpx'
+  value='{{values}}'
+  bindchange='bindChange'
+>
+  <picker-view-column>
+    <view wx:for='{{years}}'>{{item}}</view>
+  </picker-view-column>
+  <picker-view-column>
+    <view wx:for='{{months}}'>{{item}}</view>
+  </picker-view-column>
+  <picker-view-column>
+    <view wx:for='{{days}}'>{{item}}</view>
+  </picker-view-column>
+</picker-view>
